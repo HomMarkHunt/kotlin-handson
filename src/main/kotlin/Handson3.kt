@@ -37,6 +37,9 @@ fun main(args: Array<String>) {
 //    return list.toList()
 //}
 
+/**
+ * List<Int>を受け取り負の数のList<Int>を返す
+ */
 fun filterNegative(nums: List<Int>): List<Int> {
     val list = mutableListOf<Int>()
     for (n in nums) {
@@ -47,6 +50,9 @@ fun filterNegative(nums: List<Int>): List<Int> {
     return list.toList()
 }
 
+/**
+ * List<Int>を受け取り正の数のList<Int>を返す
+ */
 fun filterNotNegative(nums: List<Int>): List<Int> {
     val list = mutableListOf<Int>()
     for (n in nums) {
